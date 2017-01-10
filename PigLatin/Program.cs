@@ -35,53 +35,6 @@ namespace PigLatin
                 string doubleCon = word.Remove(0, 2);
                 Console.WriteLine($"{doubleCon + firstTwoLetters + "ay"}");
             }
-            
-
-            /*foreach (string element in vowel)
-            {
-                if (vowel.Contains(element))
-                {
-                    Console.WriteLine($"{word + "way"}");
-                }
-            }*/
-
-            /*for (int i = 0; i < vowel.Length; i++)
-            {
-                if (cleanFirst != vowel[i] && cleanSecond == vowel[i])
-                {
-                    string conVowel = word.Remove(0, 1);
-                    Console.WriteLine($"{conVowel+cleanFirst+"ay"}");
-                    break;
-                }
-                else if (cleanFirst != vowel[i] && cleanSecond != vowel[i])
-                {
-                    string doubleCon = word.Remove(0, 2);
-                    Console.WriteLine($"{doubleCon+firstTwoLetters+"ay"}");
-                    break;
-                }
-                else if (cleanFirst == vowel[i])
-                {
-                    Console.WriteLine($"{word+"way"}");
-                    break;
-                }
-            }*/
-
-            /*char first = word[0];
-            char second = word[1];
-            string cleanFirst = first.ToString().ToUpper();
-            string cleanSecond = second.ToString().ToUpper();*/
-
-            //string firstTwoLetters = first.ToString() + second.ToString();
-
-            /*if (cleanFirst == "A" ||
-                cleanFirst == "E" ||
-                cleanFirst == "I" ||
-                cleanFirst == "O" ||
-                cleanFirst == "U" ||
-                cleanFirst == "Y")
-            {
-                Console.WriteLine($"{word+"way"}");
-            }*/
         }
     }
 }
